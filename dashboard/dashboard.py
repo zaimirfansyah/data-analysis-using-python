@@ -11,12 +11,12 @@ sns.set(style='dark')
 
 # Load dataset
 datetime_cols = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
-ecommerce_data = pd.read_csv('./df.csv')
+ecommerce_data = pd.read_csv('https://raw.githubusercontent.com/zaimirfansyah/data-analysis-using-python/main/dashboard/df.csv')
 ecommerce_data.sort_values(by="order_approved_at", inplace=True)
 ecommerce_data.reset_index(drop=True, inplace=True)
 
 # Load geolocation dataset
-geolocation_data = pd.read_csv('./geo.csv')
+geolocation_data = pd.read_csv('https://raw.githubusercontent.com/zaimirfansyah/data-analysis-using-python/main/dashboard/geo.csv')
 unique_geolocations = geolocation_data.drop_duplicates(subset='customer_unique_id')
 
 # Convert datetime columns
@@ -33,7 +33,7 @@ with st.sidebar:
     with col1:
         st.write(' ')
     with col2:
-        st.image('./logo.png', width=100)
+        st.image('https://raw.githubusercontent.com/zaimirfansyah/data-analysis-using-python/main/dashboard/logo.png', width=100)
     with col3:
         st.write(' ')
 
