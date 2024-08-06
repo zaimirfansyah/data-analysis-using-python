@@ -66,7 +66,7 @@ st.title("Analisa Data : E Commerce Public ")
 st.write("**Dashboard untuk Analisa Data pada E Commerce Public .**")
 
 # Daily Orders Delivered section
-st.subheader("Pesanan harian diterima")
+st.subheader("pesanan harian yang terkirim")
 col1, col2 = st.columns(2)
 
 with col1:
