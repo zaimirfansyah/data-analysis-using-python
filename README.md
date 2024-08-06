@@ -1,5 +1,5 @@
 # E-Commerce Public Data Analysis with Python
-![E-Commerce Data Dashboard]
+
 <img width="958" alt="streamlit" src="https://github.com/user-attachments/assets/4febe1bb-f467-4aba-9867-9d00e5791421">
 
 [E-Commerce Data Dashboard Streamlit App](https://zaimirfansyah-subm1.streamlit.app/)
