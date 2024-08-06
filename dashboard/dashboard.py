@@ -8,7 +8,6 @@ from function import DataAnalyze, MapPlotBrazil
 
 # Set Seaborn style and Streamlit option
 sns.set(style='dark')
-st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Load dataset
 datetime_cols = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
